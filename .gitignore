@@ -1,0 +1,17 @@
+# Virtual environment
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Output exports
+exports/
+
+# OS-specific
+.DS_Store
+Thumbs.db

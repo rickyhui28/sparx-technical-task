@@ -15,9 +15,9 @@ This repository contains my submission for the Sparx Learning technical task.
 
 ## Mandatory 
 
- 1.There are 1394 students data for both assessment and activity.
+ 1. There are 1394 students data for both assessment and activity.
 
- 2.The mean progess is -1.9017980636237897 score, which indicated that students are not improving over time, and their marks are slightly declining.
+ 2. The mean progess is -1.9017980636237897 score, which indicated that students are not improving over time, and their marks are slightly declining.
 
  3. While the distribution is approximately bell-shaped and centered near zero, it is slightly skewed to the left, reflecting a small average decline in scores. The presence of long tails on both sides suggests that some students experienced large improvements or declines, indicating potential outliers. These patterns may reflect varying levels of engagement, assessment difficulty, or learning support across the cohort.
 
@@ -70,11 +70,12 @@ Over time, the model can be retrained as more data becomes available, making it 
 sparx-technical-task/
 ├── README.md
 ├── requirements.txt
-├── analysis.ipynb
-├── helpers.py
+├── Makefile
+├── working/
+│   ├── analysis.ipynb
+│   └── helpers.py
 ├── data/
-│   └── sparx_data.csv (if provided)
-```
+│   └── sparx_data..
 
 ---
 

@@ -1,4 +1,4 @@
-# 📊 Sparx Technical Task – Data Scientist [Insights]
+# 📊 Sparx Technical Task – Data Scientist 
 
 **Author:** Ricky Hui  
 **Date:** April 2025

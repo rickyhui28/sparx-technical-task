@@ -1,5 +1,6 @@
 ENV_NAME=env
-NOTEBOOK=analysis.ipynb
+WORKING_DIR=working
+NOTEBOOK=$(WORKING_DIR)/analysis.ipynb
 EXPORT_DIR=exports
 
 # Create virtual environment and install dependencies
@@ -21,3 +22,5 @@ export-summary:
 clean:
 	rm -rf $(ENV_NAME)
 	find . -type d -name "__pycache__" -exec rm -r {} +
+
+

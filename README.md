@@ -15,17 +15,17 @@ This repository contains my submission for the Sparx Learning technical task.
 
 ## Mandatory 
 
-### 1.There are 1394 students data for both assessment and activity.
+ 1.There are 1394 students data for both assessment and activity.
 
-### 2.The mean progess is -1.9017980636237897 score, which indicated that students are not improving over time, and their marks are slightly declining.
+ 2.The mean progess is -1.9017980636237897 score, which indicated that students are not improving over time, and their marks are slightly declining.
 
-### 3. While the distribution is approximately bell-shaped and centered near zero, it is slightly skewed to the left, reflecting a small average decline in scores. The presence of long tails on both sides suggests that some students experienced large improvements or declines, indicating potential outliers. These patterns may reflect varying levels of engagement, assessment difficulty, or learning support across the cohort.
+ 3. While the distribution is approximately bell-shaped and centered near zero, it is slightly skewed to the left, reflecting a small average decline in scores. The presence of long tails on both sides suggests that some students experienced large improvements or declines, indicating potential outliers. These patterns may reflect varying levels of engagement, assessment difficulty, or learning support across the cohort.
 
-### 4. To understand whether students really perform worse in the second test, a one-tailed paired test will be used here to find the result.
+ 4. To understand whether students really perform worse in the second test, a one-tailed paired test will be used here to find the result.
 
 The result shows a p-value with 3.60e-41, which falls in the 0.05 interval, so we can reject H0. And there is a strong statistical evidence that students performed worse in assessment 2 compared to assessment 1.
 
-###  5.Using bootstrapping, we find that the average score decreased between assessments.Since the entire confidence interval is negative, we are highly confident that this is not due to random variation.
+ 5.Using bootstrapping, we find that the average score decreased between assessments.Since the entire confidence interval is negative, we are highly confident that this is not due to random variation.
 
 
 
@@ -101,7 +101,7 @@ pip install -r requirements.txt
 
 ### 4. Start Jupyter Notebook:
 ```bash
-make notebook
+make notebook  # This will open the analysis notebook in the working directory
 ```
 
 ### 5. (Optional) Export HTML summary:
